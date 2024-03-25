@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "allowJs": true,
+        "emitDeclarationOnly": true,
+        "declarationDir": "types",
+        "baseUrl": ".",
+        "paths": {
+            "lib/*": ["./lib/*"],
+            "lib/analysis/*": ["./lib/analysis/*"],
+            "lib/estimators/*": ["./lib/estimators/*"],
+            "lib/point/*": ["./lib/point/*"],
+            "lib/transform/*": ["./lib/transform/*"],
+        },
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "lib": [
+            "es2015",
+        ],
+    },
+    "include": [
+        "index.js",
+        "lib/**/*.js",
+        "test/**/*.js",
+    ]
+}

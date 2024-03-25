@@ -1,0 +1,11 @@
+export const almostEqual: (p: import("./types").Point, q: import("./types").Point, tolerance?: number) => boolean;
+export const create: (x: number, y: number) => import("./types").Point;
+export const distance: (p: import("./types").Point, q: import("./types").Point) => number;
+export const equal: (p: import("./types").Point, q: import("./types").Point) => boolean;
+export const fromArray: (arrp: [number, number]) => import("./types").Point;
+export const offset: (p: import("./types").Point, dx: number, dy: number) => import("./types").Point;
+export const polarOffset: (p: import("./types").Point, distance: number, angle: number) => import("./types").Point;
+export const toArray: (p: import("./types").Point) => [number, number];
+export const transform: (p: import("./types").Point, tr: import("../transform/types").Transform) => import("./types").Point;
+export const transformMany: (points: import("./types").Point[], tr: import("../transform/types").Transform) => import("./types").Point[];
+export const validate: (p: any) => boolean;

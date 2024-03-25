@@ -1,0 +1,11 @@
+export const I: () => import("../transform/types").Transform;
+export const L: (domain: import("../point/types").Point[], range: import("../point/types").Point[], angle: number) => import("../transform/types").Transform;
+export const X: (domain: import("../point/types").Point[], range: import("../point/types").Point[]) => import("../transform/types").Transform;
+export const Y: (domain: import("../point/types").Point[], range: import("../point/types").Point[]) => import("../transform/types").Transform;
+export const T: (domain: import("../point/types").Point[], range: import("../point/types").Point[]) => import("../transform/types").Transform;
+export const S: (domain: import("../point/types").Point[], range: import("../point/types").Point[], center: import("../point/types").Point) => import("../transform/types").Transform;
+export const R: (domain: import("../point/types").Point[], range: import("../point/types").Point[], center: import("../point/types").Point) => import("../transform/types").Transform;
+export const TS: (domain: import("../point/types").Point[], range: import("../point/types").Point[]) => import("../transform/types").Transform;
+export const TR: (domain: import("../point/types").Point[], range: import("../point/types").Point[]) => import("../transform/types").Transform;
+export const SR: (domain: import("../point/types").Point[], range: import("../point/types").Point[], center: import("../point/types").Point) => import("../transform/types").Transform;
+export const TSR: (domain: import("../point/types").Point[], range: import("../point/types").Point[]) => import("../transform/types").Transform;
